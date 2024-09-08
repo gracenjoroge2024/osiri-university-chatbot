@@ -1,0 +1,52 @@
+Sept 08, 2024
+ Ebisa Adera
+elegese@0siriuniversity.org
++251979095633
+Final Project
+Final Project: Chat Prompt for Osiri University Student Advising
+1.Select Your Use Case
+Use Case Overview:  
+The chosen use case is student advising at Osiri University. Many students often feel overwhelmed when navigating course selections, academic requirements, and career paths. A chatbot can provide personalized guidance, answer common questions, and help students make informed decisions about their education.
+2. Define the Chat Prompt's Purpose
+Purpose Definition:  
+The chat prompt will serve as a virtual advisor for Osiri University students. It will interact with users by asking questions to understand their academic goals and preferences, providing tailored course recommendations, and answering frequently asked questions about university policies, deadlines, and resources. The desired outcome is to enhance student satisfaction and academic success by simplifying the advising process.
+3.Design the Chat Prompt
+Initial Greeting and Tone:  
+The chatbot will introduce itself with a friendly and professional tone:  
+"Hello! I’m your virtual advisor at Osiri University. How can I assist you today in your academic journey?"
+Context Understanding:  
+The chatbot will utilize natural language processing to interpret user inputs. It will maintain context by tracking the conversation history and recognizing keywords related to courses, majors, deadlines, and general inquiries.
+Follow-up Questions:  
+Based on user responses, the chatbot will ask clarifying questions such as:  
+▬"What major are you interested in?"  
+▬"Are you looking for courses this semester or planning for the next?"  
+▬"Do you have specific career goals in mind?"
+
+Error Handling:  
+In case of unclear or invalid inputs, the chatbot will respond empathetically:  
+"I'm sorry, I didn't quite understand that. Could you please rephrase your question or provide more details?"
+4. Implement Using Google LLM 
+Implementation Process:  
+1. Setup Google LLM Environment: Created an API key and set up the development environment.
+2. Develop Chat Logic: Implemented the conversation flow based on the designed prompt.
+3. Testing: Conducted multiple test interactions to ensure accurate responses.
+4. Challenges Faced: Some challenges included ensuring context retention during longer conversations and handling ambiguous user inputs effectively.
+5.  Present Your Chat Prompt Online
+Deployment:  
+The chat prompt has been deployed on a GitHub Pages site for easy access and testing. You can access it [here], (https://your-github-username.github.io/osiri-university-chatbot).
+6.Evaluate and Improve
+Testing with Users:  
+Conducted user testing with a group of students who provided feedback on usability and effectiveness. Key insights included:
+▬Users appreciated quick responses but desired more detailed information on specific courses.
+▬Some users found the error handling responses confusing.
+Improvements Made:  
+Based on feedback, additional follow-up prompts were added to guide users towards more detailed inquiries about specific courses or majors.
+7.  Final Presentation and Documentation
+Final Report:  
+The report includes:
+▬Problem Statement: Identified the need for effective student advising.
+▬Chat Prompt Design: Detailed design elements including greeting, context understanding, follow-ups, and error handling.
+▬Implementation Details: Documented the process of using Google LLM and challenges faced.
+▬Results: Summarized user feedback and improvements made.
+Submissions
+▬Link to Chatbot: [Osiri University Chatbot](https://your-github-username.github.io/osiri-university-chatbot).
